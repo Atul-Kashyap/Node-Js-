@@ -9,9 +9,23 @@
 
 // const sum = add(4, 5);
 // console.log(sum);
+const chalk = require('chalk');
 
+const validator = require('validator')
 
 const getNotes = require('./notes');
 const msg = getNotes("File system module");
 
-console.log(msg);
+// console.log(msg);
+
+// console.log(validator.isEmail('atulkashyap1208@gmail.com'));
+
+// console.log(validator.isEmail('atulkashyapgmail.com'));
+
+// console.log(validator.isURL('https://www.npmjs.com/package/validator'));
+
+console.log(chalk.green.inverse.bold('Success!'));
+
+
+
+
